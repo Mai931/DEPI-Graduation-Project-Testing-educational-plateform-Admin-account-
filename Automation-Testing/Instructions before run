@@ -1,0 +1,6 @@
+## To run this code you need to :
+- install vs code.
+- install node js in your terminal.
+- put these files in folder and after installing vs code drag this folder and drop it in vs code or you can open it from new file. 
+- tests are wrote in the cypress/e2e folder.
+- and for more info look at cypress documentation.
