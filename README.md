@@ -55,9 +55,12 @@ Reports were generated for each testing tool, with Allure providing comprehensiv
 ### Conclusion
 This project implemented a comprehensive testing approach to ensure that the ITC-College website’s admin account operates reliably, supporting the platform's role in managing academic and administrative tasks effectively.
 
+## video about project
+- https://drive.google.com/drive/folders/1IMDI8UhJE6etFW0w7VCI25fE_EAAYldg?usp=sharing
+  
 # Team Members:
-- Mai Atef abdallah Ebrahim
-- Tasneem Mahmoud Rizk
-- Radwa Mohamed Abdo
-- Mariam Kamal Faheem
-- Hagar Abdallah Mahmoud
+- ## Mai Atef abdallah Ebrahim
+- ## Tasneem Mahmoud Rizk
+- ## Radwa Mohamed Abdo
+- ## Mariam Kamal Faheem
+- ## Hagar Abdallah Mahmoud
