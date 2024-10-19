@@ -17,6 +17,10 @@ This project focuses on testing the admin account of the **ITC-College website**
 ### Test Website
 #### website link
 - https://edu.itc-college.com
+  ![test website](https://github.com/user-attachments/assets/f4fc40ea-917c-4ba1-862e-09bb12a8fa1d)
+  ![test website2](https://github.com/user-attachments/assets/53b1f960-9611-499b-bf9d-6f072f67b02d)
+
+
 
 ### Testing Strategy
 
