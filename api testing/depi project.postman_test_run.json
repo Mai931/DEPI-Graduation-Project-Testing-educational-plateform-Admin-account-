@@ -1,0 +1,360 @@
+{
+	"id": "015a355a-3d24-4f6a-a7d2-6adedfdccf33",
+	"name": "depi project",
+	"timestamp": "2024-10-16T12:33:56.097Z",
+	"collection_id": "33400611-c9b34fe7-0b42-47e4-893a-db3deff29c6e",
+	"folder_id": 0,
+	"environment_id": "33400611-2ab91089-fc68-4be6-ba19-35f5e5d77bc9",
+	"totalPass": 19,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-16T12:33:43.987Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "20a9a142-cc0f-4045-a7e2-ad69c1e5d660",
+			"name": "add item to search",
+			"url": "https://edu.itc-college.com/search",
+			"time": 443,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Each item in the response array contains 'student' in the name property (case insensitive)": true,
+				"Response time is less than 1s": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each item in the response array contains 'student' in the name property (case insensitive)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				443
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Each item in the response array contains 'student' in the name property (case insensitive)": true,
+					"Response time is less than 1s": true
+				}
+			]
+		},
+		{
+			"id": "be728ca8-f353-406d-bce5-4415ec6ebd08",
+			"name": "students-list",
+			"url": "https://edu.itc-college.com/student-list-datatable?draw=1&columns%5B0%5D%5Bdata%5D=admission_no&columns%5B0%5D%5Bname%5D=admission_no&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=full_name&columns%5B1%5D%5Bname%5D=full_name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=dob&columns%5B2%5D%5Bname%5D=dob&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=class_sec&columns%5B3%5D%5Bname%5D=class_sec&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=gender.base_setup_name&columns%5B4%5D%5Bname%5D=gender.base_setup_name&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=category.category_name&columns%5B5%5D%5Bname%5D=category.category_name&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=mobile&columns%5B6%5D%5Bname%5D=sm_students.mobile&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=action&columns%5B7%5D%5Bname%5D=action&columns%5B7%5D%5Bsearchable%5D=false&columns%5B7%5D%5Borderable%5D=false&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=first_name&columns%5B8%5D%5Bname%5D=first_name&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=last_name&columns%5B9%5D%5Bname%5D=last_name&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=30&search%5Bvalue%5D=&search%5Bregex%5D=false&academic_year=&class=&section=&roll_no=&name=&un_session_id=&un_academic_id=&un_faculty_id=&un_department_id=&un_semester_label_id=&un_section_id=&_=1729070154133",
+			"time": 846,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"valid students number": false,
+				"All students have an ID": true,
+				"All students have unique IDs": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"valid students number": {
+					"pass": 0,
+					"fail": 1
+				},
+				"All students have an ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All students have unique IDs": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				846
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"valid students number": false,
+					"All students have an ID": true,
+					"All students have unique IDs": true
+				}
+			]
+		},
+		{
+			"id": "0726b5c7-1980-426b-861b-3f02dfbb1c67",
+			"name": "filter students with section and class",
+			"url": "https://edu.itc-college.com/ajaxSelectStudent?section=11&class=2",
+			"time": 461,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				461
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "eefb5690-f1e2-47c1-9835-e323ebd17510",
+			"name": "specific user",
+			"url": "https://edu.itc-college.com/student-list-datatable?draw=1&columns%5B0%5D%5Bdata%5D=admission_no&columns%5B0%5D%5Bname%5D=admission_no&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=full_name&columns%5B1%5D%5Bname%5D=full_name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=dob&columns%5B2%5D%5Bname%5D=dob&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=class_sec&columns%5B3%5D%5Bname%5D=class_sec&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=gender.base_setup_name&columns%5B4%5D%5Bname%5D=gender.base_setup_name&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=category.category_name&columns%5B5%5D%5Bname%5D=category.category_name&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=mobile&columns%5B6%5D%5Bname%5D=sm_students.mobile&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=action&columns%5B7%5D%5Bname%5D=action&columns%5B7%5D%5Bsearchable%5D=false&columns%5B7%5D%5Borderable%5D=false&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=first_name&columns%5B8%5D%5Bname%5D=first_name&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=last_name&columns%5B9%5D%5Bname%5D=last_name&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=30&search%5Bvalue%5D=&search%5Bregex%5D=false&academic_year=1&class=&section=&roll_no=&name=%D8%A7%D8%B3%D8%B1%D8%A7%D8%A1%20%20%D8%A3%D8%A8%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%A7%D8%B1%D9%85&un_session_id=&un_academic_id=&un_faculty_id=&un_department_id=&un_semester_label_id=&un_section_id=&_=1728393753113",
+			"time": 598,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1s": true,
+				" student has the name 'اسراء ''أبوالمكارم'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1s": {
+					"pass": 1,
+					"fail": 0
+				},
+				" student has the name 'اسراء ''أبوالمكارم'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				598
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1s": true,
+					" student has the name 'اسراء ''أبوالمكارم'": true
+				}
+			]
+		},
+		{
+			"id": "dd304d0d-a71f-431d-9716-03547b3fb857",
+			"name": "teachers list",
+			"url": "https://edu.itc-college.com/staff-directory-ajax?draw=1&columns%5B0%5D%5Bdata%5D=staff_no&columns%5B0%5D%5Bname%5D=staff_no&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=full_name&columns%5B1%5D%5Bname%5D=full_name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=roles.name&columns%5B2%5D%5Bname%5D=roles.name&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=departments.name&columns%5B3%5D%5Bname%5D=departments.name&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=designations.title&columns%5B4%5D%5Bname%5D=designations.title&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=mobile&columns%5B5%5D%5Bname%5D=mobile&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=email&columns%5B6%5D%5Bname%5D=email&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=switch&columns%5B7%5D%5Bname%5D=switch&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=action&columns%5B8%5D%5Bname%5D=action&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=false&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&search%5Bvalue%5D=&search%5Bregex%5D=false&role_id=&staff_no=&staff_name=&_=1728396430690",
+			"time": 565,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"The number of teachers is 42": false,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"The number of teachers is 42": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				565
+			],
+			"allTests": [
+				{
+					"The number of teachers is 42": false,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "c6c1bfa1-256d-4a00-9f96-9d4152c4fb35",
+			"name": "specific teacher with id",
+			"url": "https://edu.itc-college.com/staff-directory-ajax?draw=1&columns%5B0%5D%5Bdata%5D=staff_no&columns%5B0%5D%5Bname%5D=staff_no&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=full_name&columns%5B1%5D%5Bname%5D=full_name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=roles.name&columns%5B2%5D%5Bname%5D=roles.name&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=departments.name&columns%5B3%5D%5Bname%5D=departments.name&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=designations.title&columns%5B4%5D%5Bname%5D=designations.title&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=mobile&columns%5B5%5D%5Bname%5D=mobile&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=email&columns%5B6%5D%5Bname%5D=email&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=switch&columns%5B7%5D%5Bname%5D=switch&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=action&columns%5B8%5D%5Bname%5D=action&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=false&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&search%5Bvalue%5D=&search%5Bregex%5D=false&role_id=&staff_no=7&staff_name=&_=1728397720792",
+			"time": 587,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"returns only one teacher": false,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"returns only one teacher": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				587
+			],
+			"allTests": [
+				{
+					"returns only one teacher": false,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "b93d1263-07c9-4e6b-969e-8afd3a79a19e",
+			"name": "staffs list",
+			"url": "https://edu.itc-college.com/staff-directory-ajax?draw=1&columns%5B0%5D%5Bdata%5D=staff_no&columns%5B0%5D%5Bname%5D=staff_no&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=full_name&columns%5B1%5D%5Bname%5D=full_name&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=roles.name&columns%5B2%5D%5Bname%5D=roles.name&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=departments.name&columns%5B3%5D%5Bname%5D=departments.name&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=designations.title&columns%5B4%5D%5Bname%5D=designations.title&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=mobile&columns%5B5%5D%5Bname%5D=mobile&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=email&columns%5B6%5D%5Bname%5D=email&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=switch&columns%5B7%5D%5Bname%5D=switch&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=action&columns%5B8%5D%5Bname%5D=action&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=false&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&search%5Bvalue%5D=&search%5Bregex%5D=false&role_id=&staff_no=&staff_name=&_=1728558463533",
+			"time": 566,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1s": true,
+				"The number of staffs is 50": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1s": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The number of staffs is 50": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				566
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1s": true,
+					"The number of staffs is 50": false
+				}
+			]
+		},
+		{
+			"id": "38db683d-7a28-4ab0-8359-94a0cc49bef5",
+			"name": "notification",
+			"url": "https://edu.itc-college.com/chat/check/notification",
+			"time": 652,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				652
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1s": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4718,
+	"collection": {
+		"requests": [
+			{
+				"id": "20a9a142-cc0f-4045-a7e2-ad69c1e5d660",
+				"method": "POST"
+			},
+			{
+				"id": "be728ca8-f353-406d-bce5-4415ec6ebd08",
+				"method": "GET"
+			},
+			{
+				"id": "0726b5c7-1980-426b-861b-3f02dfbb1c67",
+				"method": "GET"
+			},
+			{
+				"id": "eefb5690-f1e2-47c1-9835-e323ebd17510",
+				"method": "GET"
+			},
+			{
+				"id": "dd304d0d-a71f-431d-9716-03547b3fb857",
+				"method": "GET"
+			},
+			{
+				"id": "c6c1bfa1-256d-4a00-9f96-9d4152c4fb35",
+				"method": "GET"
+			},
+			{
+				"id": "b93d1263-07c9-4e6b-969e-8afd3a79a19e",
+				"method": "GET"
+			},
+			{
+				"id": "38db683d-7a28-4ab0-8359-94a0cc49bef5",
+				"method": "POST"
+			}
+		]
+	}
+}
