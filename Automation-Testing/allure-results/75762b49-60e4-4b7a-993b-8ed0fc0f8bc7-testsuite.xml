@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268098975' stop='1729268105451'>
+    <name>Exam Type Functionality Exam Type - Add New Exam</name>
+    <title>Exam Type Functionality Exam Type - Add New Exam</title>
+    <test-cases>
+        <test-case start='1729268098983' status='passed' stop='1729268105435'>
+            <name>should allow admin to add a new exam type</name>
+            <title>should allow admin to add a new exam type</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

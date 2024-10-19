@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268208355' stop='1729268232291'>
+    <name>logout Test</name>
+    <title>logout Test</title>
+    <test-cases>
+        <test-case start='1729268208366' status='broken' stop='1729268213957'>
+            <name>should log the user out and redirect to login page</name>
+            <title>should log the user out and redirect to login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allure is not defined</message>
+                <stack-trace>ReferenceError: allure is not defined
+                    at Context.eval (webpack://cybress/./cypress/e2e/loginLogout.cy.js:103:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268214014' status='passed' stop='1729268223080'>
+            <name>should prevent access to the dashboard after logout when using the back button</name>
+            <title>should prevent access to the dashboard after logout when using the back button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268223102' status='broken' stop='1729268232258'>
+            <name>should log out the user in all tabs when logging out in one tab</name>
+            <title>should log out the user in all tabs when logging out in one tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>SyntaxError: The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

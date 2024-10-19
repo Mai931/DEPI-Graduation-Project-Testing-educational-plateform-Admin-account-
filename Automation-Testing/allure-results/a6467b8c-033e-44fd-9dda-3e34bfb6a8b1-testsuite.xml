@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729263146200' stop='1729263289331'>
+    <name>ITC College Admin Dashboard - Section Page Test Cases</name>
+    <title>ITC College Admin Dashboard - Section Page Test Cases</title>
+    <test-cases>
+        <test-case start='1729263146200' status='passed' stop='1729263184629'>
+            <name>Verify admin can add new sections</name>
+            <title>Verify admin can add new sections</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729263184649' status='failed' stop='1729263215576'>
+            <name>Validate that empty name field is not allowed while adding new section</name>
+            <title>Validate that empty name field is not allowed while adding new section</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected '&lt;span.text-danger>' to contain 'Section name is required'</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected '&lt;span.text-danger>' to contain 'Section name is required'
+                    at Context.eval (webpack://cybress/./cypress/e2e/Section.cy.js:23:194)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729263215615' status='broken' stop='1729263241105'>
+            <name>Verify that the entered name while adding new section is in valid form</name>
+            <title>Verify that the entered name while adding new section is in valid form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.type()` failed because it requires a valid typeable element.
+                
+                The element typed into was:
+                
+                  > `&lt;div class="circle circle3 c32">&lt;/div>`
+                
+                  A typeable element matches one of the following selectors:
+                  `a[href]`
+                  `area[href]`
+                  `input`
+                  `select`
+                  `textarea`
+                  `button`
+                  `iframe`
+                  `[tabindex]`
+                  `[contenteditable]`
+                
+                https://on.cypress.io/type</message>
+                <stack-trace>CypressError: `cy.type()` failed because it requires a valid typeable element.
+                
+                The element typed into was:
+                
+                  > `&lt;div class="circle circle3 c32">&lt;/div>`
+                
+                  A typeable element matches one of the following selectors:
+                  `a[href]`
+                  `area[href]`
+                  `input`
+                  `select`
+                  `textarea`
+                  `button`
+                  `iframe`
+                  `[tabindex]`
+                  `[contenteditable]`
+                
+                https://on.cypress.io/type
+                    at &lt;unknown> (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:115814:76)
+                    at tryCatcher (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1701:18)
+                    at _drainQueueStep (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://cybress/./cypress/e2e/Section.cy.js:27:35)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729263241141' status='passed' stop='1729263263053'>
+            <name>Verify the ability to delete a section</name>
+            <title>Verify the ability to delete a section</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729263263077' status='passed' stop='1729263289331'>
+            <name>Verify the ability to edit any section</name>
+            <title>Verify the ability to edit any section</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

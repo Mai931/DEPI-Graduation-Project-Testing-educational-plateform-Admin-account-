@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729267804968' stop='1729267861137'>
+    <name>ITC College Admin Dashboard - Subject Page Test Cases</name>
+    <title>ITC College Admin Dashboard - Subject Page Test Cases</title>
+    <test-cases>
+        <test-case start='1729267804968' status='passed' stop='1729267835107'>
+            <name>Validate That Subject Creation is Successful</name>
+            <title>Validate That Subject Creation is Successful</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267835134' status='passed' stop='1729267843366'>
+            <name>Validate that Subjects can be Filtered Using the Search Functionality</name>
+            <title>Validate that Subjects can be Filtered Using the Search Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267843382' status='passed' stop='1729267861137'>
+            <name>Verify that an Error Message is Displayed When Mandatory Fields are Left Empty</name>
+            <title>Verify that an Error Message is Displayed When Mandatory Fields are Left Empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

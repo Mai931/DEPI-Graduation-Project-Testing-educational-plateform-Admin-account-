@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729263086342' stop='1729263144694'>
+    <name>ITC College Admin Dashboard - Assign Class Teacher Test Cases</name>
+    <title>ITC College Admin Dashboard - Assign Class Teacher Test Cases</title>
+    <test-cases>
+        <test-case start='1729263086342' status='passed' stop='1729263119701'>
+            <name>Verify that No Class is Assigned When No Input is Selected</name>
+            <title>Verify that No Class is Assigned When No Input is Selected</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729263119727' status='passed' stop='1729263144694'>
+            <name>Verify Successful Assignment of a Teacher to a Class</name>
+            <title>Verify Successful Assignment of a Teacher to a Class</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729263405637' stop='1729263483387'>
+    <name>Lesson Plan Topic Page Functionality</name>
+    <title>Lesson Plan Topic Page Functionality</title>
+    <test-cases>
+        <test-case start='1729263405637' status='passed' stop='1729263429667'>
+            <name>SCRUM-TC-329: Verify "Add Topic" form functionality</name>
+            <title>SCRUM-TC-329: Verify "Add Topic" form functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729263429695' status='failed' stop='1729263483350'>
+            <name>SCRUM-TC-330: Verify mandatory fields in the "Add Topic" form</name>
+            <title>SCRUM-TC-330: Verify mandatory fields in the "Add Topic" form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `#main-content > section.admin-visitor-area.up_st_admin_visitor > div > form > div > div.col-lg-4.col-xl-3 > div:nth-child(1) > div > div > div.add-visitor > div:nth-child(1) > div > span`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `#main-content > section.admin-visitor-area.up_st_admin_visitor > div > form > div > div.col-lg-4.col-xl-3 > div:nth-child(1) > div > div > div.add-visitor > div:nth-child(1) > div > span`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/topic.cy.js:27:201)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268032843' stop='1729268071446'>
+    <name>Online Exam Page Tests</name>
+    <title>Online Exam Page Tests</title>
+    <test-cases>
+        <test-case start='1729268032843' status='passed' stop='1729268061513'>
+            <name>Verify Online Exam List Display</name>
+            <title>Verify Online Exam List Display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268061535' status='broken' stop='1729268065490'>
+            <name>Add a New Online Exam</name>
+            <title>Add a New Online Exam</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed to execute 'evaluate' on 'Document': The string '//ul[@class="dropdown-menu"] li' is not a valid XPath expression.</message>
+                <stack-trace>SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//ul[@class="dropdown-menu"] li' is not a valid XPath expression.
+                Error: Failed to execute 'evaluate' on 'Document': The string '//ul[@class="dropdown-menu"] li' is not a valid XPath expression.</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268065509' status='passed' stop='1729268071446'>
+            <name>Handle Missing Required Fields for Online Exam</name>
+            <title>Handle Missing Required Fields for Online Exam</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729267863478' stop='1729267899308'>
+    <name>Lesson Plan Topic Page Functionality</name>
+    <title>Lesson Plan Topic Page Functionality</title>
+    <test-cases>
+        <test-case start='1729267863478' status='passed' stop='1729267883138'>
+            <name>SCRUM-TC-329: Verify "Add Topic" form functionality</name>
+            <title>SCRUM-TC-329: Verify "Add Topic" form functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267883172' status='passed' stop='1729267899308'>
+            <name>SCRUM-TC-330: Verify mandatory fields in the "Add Topic" form</name>
+            <title>SCRUM-TC-330: Verify mandatory fields in the "Add Topic" form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

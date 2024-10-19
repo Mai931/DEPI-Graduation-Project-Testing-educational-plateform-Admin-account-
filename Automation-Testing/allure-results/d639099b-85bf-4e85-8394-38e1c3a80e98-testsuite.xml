@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268137287' stop='1729268174133'>
+    <name>Staff Attendance Page</name>
+    <title>Staff Attendance Page</title>
+    <test-cases>
+        <test-case start='1729268137287' status='passed' stop='1729268160684'>
+            <name>Verify that the attendance date can be selected</name>
+            <title>Verify that the attendance date can be selected</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268160714' status='passed' stop='1729268166355'>
+            <name>Verify that both attendance date and role are mandatory fields</name>
+            <title>Verify that both attendance date and role are mandatory fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268166382' status='passed' stop='1729268170023'>
+            <name>Verify the "Import Attendance" button redirects to the correct page</name>
+            <title>Verify the "Import Attendance" button redirects to the correct page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268170044' status='passed' stop='1729268174133'>
+            <name>Verify that a role can be selected</name>
+            <title>Verify that a role can be selected</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

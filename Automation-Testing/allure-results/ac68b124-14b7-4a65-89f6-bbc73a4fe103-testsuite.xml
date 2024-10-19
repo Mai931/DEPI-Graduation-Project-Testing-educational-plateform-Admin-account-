@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268126985' stop='1729268134650'>
+    <name>Exam Type Functionality Verify Admin Cannot Add Exam with Empty Field</name>
+    <title>Exam Type Functionality Verify Admin Cannot Add Exam with Empty Field</title>
+    <test-cases>
+        <test-case start='1729268126990' status='passed' stop='1729268134650'>
+            <name>should not allow admin to add an exam type with empty fields</name>
+            <title>should not allow admin to add an exam type with empty fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

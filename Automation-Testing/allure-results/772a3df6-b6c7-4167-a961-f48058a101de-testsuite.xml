@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729267939120' stop='1729267971603'>
+    <name>Add Staff Page Tests</name>
+    <title>Add Staff Page Tests</title>
+    <test-cases>
+        <test-case start='1729267939120' status='passed' stop='1729267959760'>
+            <name>Verify "Add Staff" Form Fields</name>
+            <title>Verify "Add Staff" Form Fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267959803' status='passed' stop='1729267964956'>
+            <name>Verify that all mandatory fields are validated properly</name>
+            <title>Verify that all mandatory fields are validated properly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267964980' status='passed' stop='1729267971603'>
+            <name>Verify that the system prevents adding duplicate staff</name>
+            <title>Verify that the system prevents adding duplicate staff</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

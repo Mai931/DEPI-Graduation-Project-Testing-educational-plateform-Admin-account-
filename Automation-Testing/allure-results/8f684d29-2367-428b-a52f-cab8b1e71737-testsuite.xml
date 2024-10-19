@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729267901642' stop='1729267936866'>
+    <name>Upload Content Page Functionality</name>
+    <title>Upload Content Page Functionality</title>
+    <test-cases>
+        <test-case start='1729267901642' status='passed' stop='1729267926676'>
+            <name>TC-297: Verify content upload functionality</name>
+            <title>TC-297: Verify content upload functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729267926696' status='passed' stop='1729267936866'>
+            <name>TC-301: Verify content upload fails for missing required fields</name>
+            <title>TC-301: Verify content upload fails for missing required fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

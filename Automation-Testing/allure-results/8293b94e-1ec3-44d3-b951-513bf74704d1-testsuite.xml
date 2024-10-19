@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268073760' stop='1729268098972'>
+    <name>Exam Type Functionality Verify Exam Type List Loads Correctly</name>
+    <title>Exam Type Functionality Verify Exam Type List Loads Correctly</title>
+    <test-cases>
+        <test-case start='1729268073760' status='passed' stop='1729268098950'>
+            <name>should load the exam type list</name>
+            <title>should load the exam type list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

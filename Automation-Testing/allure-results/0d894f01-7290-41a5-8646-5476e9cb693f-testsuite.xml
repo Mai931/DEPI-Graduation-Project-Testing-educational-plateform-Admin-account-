@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268234287' stop='1729268302896'>
+    <name>Change Password Functionality</name>
+    <title>Change Password Functionality</title>
+    <test-cases>
+        <test-case start='1729268234287' status='failed' stop='1729268262122'>
+            <name>should display an error if new password and confirm password do not match</name>
+            <title>should display an error if new password and confirm password do not match</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `#main-content > section.admin-visitor-area.mb-40 > div > div.row > div > div > form > div > div.col-lg-6 > div:nth-child(2) > div > div > span`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `#main-content > section.admin-visitor-area.mb-40 > div > div.row > div > div > form > div > div.col-lg-6 > div:nth-child(2) > div > div > span`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/changePassword.cy.js:37:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268262177' status='passed' stop='1729268274371'>
+            <name>should display an error if current password is incorrect</name>
+            <title>should display an error if current password is incorrect</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268274391' status='passed' stop='1729268294660'>
+            <name>should display validation errors when fields are in invalid length</name>
+            <title>should display validation errors when fields are in invalid length</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268294680' status='passed' stop='1729268302896'>
+            <name>should display validation errors when fields are empty</name>
+            <title>should display validation errors when fields are empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268176616' stop='1729268208351'>
+    <name>Login Page Test</name>
+    <title>Login Page Test</title>
+    <test-cases>
+        <test-case start='1729268176616' status='passed' stop='1729268188219'>
+            <name>should log in successfully with valid credentials</name>
+            <title>should log in successfully with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268188248' status='failed' stop='1729268197717'>
+            <name>should show an error message with invalid credentials</name>
+            <title>should show an error message with invalid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find content: 'بيانات الاعتماد هذه لا تتطابق مع سجلاتنا' but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find content: 'بيانات الاعتماد هذه لا تتطابق مع سجلاتنا' but never did.
+                    at Context.eval (webpack://cybress/./cypress/e2e/loginLogout.cy.js:36:60)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268197769' status='passed' stop='1729268199813'>
+            <name>should show validation error for empty fields</name>
+            <title>should show validation error for empty fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268199835' status='passed' stop='1729268200855'>
+            <name>should mask the password field</name>
+            <title>should mask the password field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268200876' status='failed' stop='1729268206038'>
+            <name>should allow checking the "Remember Me" checkbox</name>
+            <title>should allow checking the "Remember Me" checkbox</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected null to exist</message>
+                <stack-trace>AssertionError: expected null to exist
+                    at Context.eval (webpack://cybress/./cypress/e2e/loginLogout.cy.js:70:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268206088' status='passed' stop='1729268208324'>
+            <name>should navigate to the Forgot Password page</name>
+            <title>should navigate to the Forgot Password page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

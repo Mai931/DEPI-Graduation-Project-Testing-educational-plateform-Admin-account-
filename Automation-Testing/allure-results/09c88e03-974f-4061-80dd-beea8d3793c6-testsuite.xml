@@ -1,0 +1,272 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268305874' stop='1729268684840'>
+    <name>profile page</name>
+    <title>profile page</title>
+    <test-cases>
+        <test-case start='1729268305875' status='passed' stop='1729268329881'>
+            <name>Should be able to view profile page</name>
+            <title>Should be able to view profile page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268329910' status='passed' stop='1729268345183'>
+            <name>Should be able to click on and view all the categories</name>
+            <title>Should be able to click on and view all the categories</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268345200' status='passed' stop='1729268369304'>
+            <name>Should separate between staff details and categories</name>
+            <title>Should separate between staff details and categories</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268369327' status='passed' stop='1729268384660'>
+            <name>Should open edit bage to edit staff data</name>
+            <title>Should open edit bage to edit staff data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268384691' status='passed' stop='1729268400382'>
+            <name>All Categouries in edit page should contain items to be edited</name>
+            <title>All Categouries in edit page should contain items to be edited</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268400406' status='passed' stop='1729268423979'>
+            <name>first name field shouldn't be plank in basic info editing</name>
+            <title>first name field shouldn't be plank in basic info editing</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268424019' status='passed' stop='1729268440313'>
+            <name>Should accept aracbic and english chars in first and last name fields in basic info editing</name>
+            <title>Should accept aracbic and english chars in first and last name fields in basic info editing</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268440350' status='broken' stop='1729268450715'>
+            <name>Sould not accept aspecial chars or numpers in first and last name fields in basic info editing</name>
+            <title>Sould not accept aspecial chars or numpers in first and last name fields in basic info editing</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>SyntaxError: The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268450742' status='passed' stop='1729268470599'>
+            <name>Sould accept phone numper that contain numpers only and in valid format</name>
+            <title>Sould accept phone numper that contain numpers only and in valid format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268470625' status='failed' stop='1729268487599'>
+            <name>Souldn't accept phone numper that contain numpers only and in invalid format</name>
+            <title>Souldn't accept phone numper that contain numpers only and in invalid format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:194:70)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268487647' status='passed' stop='1729268507338'>
+            <name>Should verify gender dropdown options and selection</name>
+            <title>Should verify gender dropdown options and selection</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268507370' status='broken' stop='1729268528701'>
+            <name>Should validate date of birth input with manual entry, calendar selection</name>
+            <title>Should validate date of birth input with manual entry, calendar selection</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: `cy.clear()` failed because this element:
+                
+                `&lt;input class="primary_input_field primary_input_field date form-control" id="date_of_birth" type="text" name="date_of_birth" value="12/15/2024" autocomplete="off">`
+                
+                is being covered by another element:
+                
+                `&lt;p class="email">Admaane...&lt;/p>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4000ms: `cy.clear()` failed because this element:
+                
+                `&lt;input class="primary_input_field primary_input_field date form-control" id="date_of_birth" type="text" name="date_of_birth" value="12/15/2024" autocomplete="off">`
+                
+                is being covered by another element:
+                
+                `&lt;p class="email">Admaane...&lt;/p>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at ensureIsDescendent (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:112962:68)
+                    at ensureDescendents (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113013:5)
+                    at ensureDescendentsAndScroll (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113019:14)
+                    at ensureElIsNotCovered (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113150:5)
+                    at runAllChecks (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113349:52)
+                    at retryActionability (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113386:16)
+                    at tryCatcher (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise.attempt.Promise.try (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:4315:29)
+                    at whenStable (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:143797:68)
+                    at &lt;unknown> (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:143738:14)
+                    at tryCatcher (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1701:18)
+                    at Promise._fulfill (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1645:18)
+                    at &lt;unknown> (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:5450:46)
+                From Your Spec Code:
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:246:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268528741' status='failed' stop='1729268552782'>
+            <name>Should not validate invalid date of birth input with manual entry, calendar selection</name>
+            <title>Should not validate invalid date of birth input with manual entry, calendar selection</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:285:74)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268552837' status='passed' stop='1729268572071'>
+            <name>Should upload a staff photo successfully</name>
+            <title>Should upload a staff photo successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268572099' status='failed' stop='1729268599653'>
+            <name>Should not upload other files that not image files a staff photo successfully</name>
+            <title>Should not upload other files that not image files a staff photo successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected '&lt;input#placeholderStaffsName.primary_input_field>' not to have attribute 'placeholder' with the value 'ch1.pdf', but the value was 'ch1.pdf'</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected '&lt;input#placeholderStaffsName.primary_input_field>' not to have attribute 'placeholder' with the value 'ch1.pdf', but the value was 'ch1.pdf'
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:364:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268599692' status='failed' stop='1729268629883'>
+            <name>Should accept valid inputs for both current and permanent address fields</name>
+            <title>Should accept valid inputs for both current and permanent address fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//*[@id="basic_info"]/div/div/div/div/div[5]/div/span`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:398:68)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268629940' status='failed' stop='1729268649168'>
+            <name>Should handle invalid inputs for both current and permanent address fields</name>
+            <title>Should handle invalid inputs for both current and permanent address fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//*[@id="main-co  ntent"]/section[2]/div/div/div[2]/div/ul/li[6]/a`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//*[@id="main-co  ntent"]/section[2]/div/div/div[2]/div/ul/li[6]/a`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:407:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268649223' status='broken' stop='1729268654795'>
+            <name>Should allow editing social media URLs in the profile with valid inputs</name>
+            <title>Should allow editing social media URLs in the profile with valid inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>SyntaxError: The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268654913' status='failed' stop='1729268684819'>
+            <name>Should allow editing social media URLs in the profile with valid inputs</name>
+            <title>Should allow editing social media URLs in the profile with valid inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//*[@id="main-co  ntent"]/section[2]/div/div/div[2]/div/ul/li[6]/a`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//*[@id="main-co  ntent"]/section[2]/div/div/div[2]/div/ul/li[6]/a`, but never found it.
+                    at Context.eval (webpack://cybress/./cypress/e2e/viewProfile.cy.js:480:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

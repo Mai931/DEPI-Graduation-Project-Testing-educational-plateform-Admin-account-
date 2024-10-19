@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268022976' stop='1729268030480'>
+    <name>Marks Grade Page Functionality Verify "Select" Button Functionality for Deleting a Grade</name>
+    <title>Marks Grade Page Functionality Verify "Select" Button Functionality for Deleting a Grade</title>
+    <test-cases>
+        <test-case start='1729268022980' status='broken' stop='1729268030454'>
+            <name>should click the "Delete" button from the dropdown</name>
+            <title>should click the "Delete" button from the dropdown</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select&lt;/button>`
+                
+                This element `&lt;button#dropdownMenu2.btn.btn-secondary.dropdown-toggle>` is not visible because its parent `&lt;td>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select&lt;/button>`
+                
+                This element `&lt;button#dropdownMenu2.btn.btn-secondary.dropdown-toggle>` is not visible because its parent `&lt;td>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at runVisibilityCheck (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:145007:58)
+                    at Object.isStrictlyVisible (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:145021:10)
+                    at runAllChecks (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113318:26)
+                    at retryActionability (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:113386:16)
+                    at tryCatcher (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise.attempt.Promise.try (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:4315:29)
+                    at whenStable (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:143797:68)
+                    at &lt;unknown> (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:143738:14)
+                    at tryCatcher (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1701:18)
+                    at Promise._fulfill (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:1645:18)
+                    at &lt;unknown> (https://edu.itc-college.com/__cypress/runner/cypress_runner.js:5450:46)
+                From Your Spec Code:
+                    at Context.eval (webpack://cybress/./cypress/e2e/marksGrade.cy.js:62:57)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

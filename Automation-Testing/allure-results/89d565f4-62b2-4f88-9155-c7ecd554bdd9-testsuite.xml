@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729268687857' stop='1729268893784'>
+    <name>DASHBOARD Functionality</name>
+    <title>DASHBOARD Functionality</title>
+    <test-cases>
+        <test-case start='1729268687857' status='passed' stop='1729268710015'>
+            <name>Should open dashboard related page when click on dashpoard category</name>
+            <title>Should open dashboard related page when click on dashpoard category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268710046' status='passed' stop='1729268727231'>
+            <name>Should be able to open student category from dashboard related page</name>
+            <title>Should be able to open student category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268727254' status='passed' stop='1729268748359'>
+            <name>Should be able to open teachers category from dashboard related page</name>
+            <title>Should be able to open teachers category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268748383' status='failed' stop='1729268762283'>
+            <name>Should be able to open parent category from dashboard related page</name>
+            <title>Should be able to open parent category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find content: 'parents' but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find content: 'parents' but never did.
+                    at Context.eval (webpack://cybress/./cypress/e2e/dashboard.cy.js:55:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268762347' status='passed' stop='1729268790945'>
+            <name>Should be able to open staffs category from dashboard related page</name>
+            <title>Should be able to open staffs category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1729268790974' status='failed' stop='1729268836053'>
+            <name>Should desplay a list with the same numper of items that desplayed on the student category button</name>
+            <title>Should desplay a list with the same numper of items that desplayed on the student category button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 620 to equal 614</message>
+                <stack-trace>AssertionError: expected 620 to equal 614
+                    at Context.eval (webpack://cybress/./cypress/e2e/dashboard.cy.js:99:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268836122' status='failed' stop='1729268860808'>
+            <name>Should desplay a list with the same numper of items that desplayed on the teachers category from dashboard related page</name>
+            <title>Should desplay a list with the same numper of items that desplayed on the teachers category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 50 to equal 42</message>
+                <stack-trace>AssertionError: expected 50 to equal 42
+                    at Context.eval (webpack://cybress/./cypress/e2e/dashboard.cy.js:135:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268860884' status='broken' stop='1729268871421'>
+            <name>Should be able to open staffs category from dashboard related page</name>
+            <title>Should be able to open staffs category from dashboard related page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>SyntaxError: The following error originated from your application code, not from Cypress.
+                
+                  > Unexpected token ';'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268871584' status='failed' stop='1729268887344'>
+            <name>Should add a new To-Do item and verify it appears in the listin un completed category and able to mark it as completed</name>
+            <title>Should add a new To-Do item and verify it appears in the listin un completed category and able to mark it as completed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected '&lt;div.toDoListsCompleted>' not to contain 'New Test To-Do Item'</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected '&lt;div.toDoListsCompleted>' not to contain 'New Test To-Do Item'
+                    at Context.eval (webpack://cybress/./cypress/e2e/dashboard.cy.js:251:36)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1729268887469' status='passed' stop='1729268893784'>
+            <name>Should mark a To-Do item as completed and verify it moves to the Completed section</name>
+            <title>Should mark a To-Do item as completed and verify it moves to the Completed section</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
