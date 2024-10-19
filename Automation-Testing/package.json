@@ -1,0 +1,26 @@
+{
+  "name": "cybress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exist 1",
+    "browser:chrome": "npx cypress run --browser=chrome --headed --spec cypress/e2e/Class.cy.js cypress/e2e/Assign_class_teacher.cy.js cypress/e2e/Section.cy.js cypress/e2e/Subjects.cy.js cypress/e2e/topic.cy.js cypress/e2e/Upload_content.cy.js cypress/e2e/addStaff.cy.js  cypress/e2e/marksGrade.cy.js cypress/e2e/onlineExam.cy.js cypress/e2e/spec.cy.js cypress/e2e/staffAttendance.cy.js cypress/e2e/loginLogout.cy.js cypress/e2e/changePassword.cy.js cypress/e2e/viewProfile.cy.js cypress/e2e/dashboard.cy.js --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.15.0",
+    "cypress-real-events": "^1.13.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.30.0",
+    "allure-cypress": "^3.0.5",
+    "cypress-file-upload": "^5.0.8",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
