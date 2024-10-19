@@ -14,6 +14,9 @@ This project focuses on testing the admin account of the **ITC-College website**
 - Conduct API testing to ensure reliable and accurate API responses.
 - Perform performance testing to evaluate scalability and identify potential bottlenecks.
 - Utilize both manual and automated testing methods for comprehensive coverage.
+### Test Website
+#### website link
+- https://edu.itc-college.com
 
 ### Testing Strategy
 
